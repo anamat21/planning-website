@@ -1,0 +1,87 @@
+body{
+  background: rgb(77,221,237);
+  background: linear-gradient(180deg, rgb(77,221,237) 0%, rgba(77,221,237,1) 35%, rgba(236,131,225,1) 100%);
+  font-family: "Antonio";
+  color: white;
+  text-align: center;
+}
+
+nav{
+    background-color: rgb(138, 166, 235);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+nav a{
+  text-transform: uppercase;
+  margin: 30px;
+  font-size: 35px;
+}
+
+nav a:hover{
+  opacity: 50%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.whatIsIt{
+  box-sizing: border-box;
+  width: 600px;
+  padding: 80px, 60px;
+  font-size: 35px;
+  float: left;
+}
+
+.catImg{
+  width: 400px;
+  height: auto;
+  margin-top: 100px;
+  postion: right;
+}
+
+.cloudImg{
+  margin-top: 100px;
+  width: 1000px;
+  height: auto;
+}
+
+.howToUseIt{
+  width: 600px;
+  font-size: 40px;
+  margin: 100px;
+  text-align: center;
+  float: right;
+}
+
+.calenderImg{
+  width: 300px;
+  height: auto;
+  position: left;
+  margin-top: 300px;
+}
+
+.groupStuff{
+  font-size: 50px
+}
+
+input[type=text]{
+  width: 400px;
+  height: 75px;
+  background-color: rgb(162, 188, 250);
+  font-size: 50px;
+  color: white;
+  border: 0px;
+  font-family: Antonio;
+  margin: 20px;
+}
